@@ -52,7 +52,7 @@ def filework():
 def check():
     global key
     if key == 'a' or key == 'A':
-        check = True
+        stop = True
     if len(key)<len(text):
         add = len(text)-len(key*(len(text)//len(key)))
         key=key*(len(text)//len(key))+key[:add]
